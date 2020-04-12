@@ -8,6 +8,6 @@ function nowServing(katzDeliLine) {
     return "There is nobody waiting to be served!";
   } else {
   let first = katzDeliLine[0]
-  }
   return `Currently serving ${first}.`
+  }
 }
