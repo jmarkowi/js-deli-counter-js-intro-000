@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
     var lineOrder = new Array();
     let i = 0;
     while (i < katzDeliLine.length) {
-      lineOrder.push(i + katzDeliLine[i])
+      lineOrder.push(i + ". " + katzDeliLine[i])
       i += 1
     }
   }
