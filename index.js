@@ -10,5 +10,19 @@ function nowServing(katzDeliLine) {
   let first = katzDeliLine[0]
   katzDeliLine.shift()
   return `Currently serving ${first}.`
+  }
 }
+
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+    return "The line is currently empty.";
+  } else {
+    var lineOrder = new Array();
+    let i = 0;
+    while (i < katzDeliLine.length) {
+      lineOrder.push(i + katzDeliLine[i])
+      i += 1
+    }
+  }
+  return `The line is currently: ${lineOrder}`
 }
