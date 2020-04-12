@@ -4,10 +4,10 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
+  var first = katzDeliLine.shift()
   if (katzDeliLine.length = 0) {
     return "There is nobody waiting to be served!";
   } else {
-  var first = katzDeliLine.shift()
   return "Currently serving " + first + "."
   }
 }
