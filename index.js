@@ -5,9 +5,6 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing(katzDeliLine) {
   let first = katzDeliLine[0]
-  if (katzDeliLine.length = 0) {
-    return "There is nobody waiting to be served!";
-  } else {
   return `Currently serving ${first}.`
   }
 }
