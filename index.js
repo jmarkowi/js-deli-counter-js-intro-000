@@ -6,5 +6,4 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
   let first = katzDeliLine[0]
   return `Currently serving ${first}.`
-  }
 }
